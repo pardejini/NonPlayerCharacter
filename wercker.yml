@@ -2,7 +2,7 @@ box: golang
 dev:
   steps:
   - setup-go-workspace:
-    package-dir: github.com/pardejini/NonPlayerCharacter
+    package-dir: cloudnativego/continuous-integration
   - script:
     name: env
     code: env
@@ -21,7 +21,7 @@ dev:
 build:
   steps:
   - setup-go-workspace:
-    package-dir: github.com/pardejini/NonPlayerCharacter
+    package-dir: cloudnativego/continuous-integration
   - script:
     name: env
     code: env

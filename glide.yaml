@@ -1,3 +1,3 @@
 package: cloudnativego/continuous-integration
 import:
-- package: cloudnativego/section3/npcs
+- package: github.com/pardejini/npcs
